@@ -1,0 +1,24 @@
+
+.boton1 
+{
+	background: #458DFD;
+	color: #fff;
+	font-size: 15px;
+	margin: 8px;
+	padding: 8px 2px;
+	text-align: center;
+	width: 40%;
+	text-decoration: none;
+	box-shadow: 0px 3px 1px #373c3c;
+	display: inline-block;	
+}
+.boton1.radius
+{
+	border-radius: 15px;
+}
+.boton1:hover
+{
+	box-shadow: 0px 0px 0px;
+	padding: 15px;
+}
+

@@ -1,0 +1,182 @@
+
+.container 
+{
+	max-width: 800px;
+	height: auto;
+	background-color: #EFEFEF;
+	margin: 9% auto;
+	padding-bottom: 1rem;
+
+}
+.form_top
+{
+		width: 100%;
+		text-align: center;
+		padding: 2rem 0 1rem;
+		border-top: solid .4rem #F39B53;
+		margin-bottom: 1rem;
+}
+.form_top h2
+{
+	font-weight: bold;
+	color: #CAC8C8;
+	font-size: 20px;
+}
+h2 span
+{
+	color: #F39B53;
+}
+.form_reg
+{
+	padding: 0 2rem;
+	display:  flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.btn_form
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1rem;
+}
+.input, .btn_submit, .btn_reset
+{
+	background-color: #EFEFEF;
+	padding: .5rem;
+	margin: .5rem 6;
+	border: none;
+	border-bottom: solid #CAC8C8 .2rem;
+	transition: all .2s;
+}
+.input:focus
+{
+	border-bottom: solid #F39B53 .2rem;
+}
+.btn_submit, .btn_reset
+{
+	width: 60%;
+	border-bottom: none;
+	background-color: #31B1E5;
+	color: white;
+}
+.btn_reset
+{
+	background-color: #eda135;
+}
+.btn_submit:hover
+{
+	background-color: #4c9ed9;
+}
+.btn_reset:hover
+{
+	background-color: #fa9535;	
+}
+.inicioR a
+{
+
+	background-color: #EDEDED;
+	padding: 10;
+	text-decoration: none;
+}
+.bordeEstilo
+{
+border: dashed 2px #4E52D8;
+
+padding: 8px;
+}
+
+@media screen and (max-width:800px ) 
+{
+.tabla1
+{
+	width: 85%;
+}
+
+
+}
+.tabla1
+{
+	width: 75%;
+	height: 100%;
+	border-spacing: 0;
+}
+
+.titulo1
+{
+	font-size: 40px;
+	color: #fff;
+}
+.titulo1::first-letter
+{
+	font-size: 48px;
+	color: #BEE6FF;
+}
+@media (max-width: 830px)
+{
+.titulo1
+{
+	font-size: 30px;
+	color: #fff;
+}
+.titulo1::first-letter
+{
+	font-size: 38px;
+	color: #BEE6FF;
+}
+.tabla1
+{
+	width: 90%;
+}
+}
+
+@media (max-width: 720px)
+{
+.titulo1
+{
+	font-size: 20px;
+	color: #fff;
+}
+.titulo1::first-letter
+{
+	font-size: 28px;
+	color: #BEE6FF;
+}
+
+.logo img
+{
+	width: 80px;
+}
+.logo1 img
+{
+	width: 100px;
+}
+.tabla1
+{
+	width: 90%;
+}
+}
+@media (max-width: 1243px)
+{
+
+	.tabla1
+	{
+		width: 85%;
+	}
+	.main
+	{
+		width: 95%;
+	}
+}
+.Logo img
+{
+	border-radius: 25% ;
+}
+.Logo1 img
+{
+	border-radius: 25% ;
+}
+
+.form_reg input:in-range
+{
+	width: 48px;
+}
